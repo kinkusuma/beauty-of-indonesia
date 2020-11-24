@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '=d2-&4q*3$pmnc5k&f0u0r95izuezsuc&0$@dln5g&+miu4mr!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['beautyofindonesia.herokuapp.com', 'localhost', '127.0.0.1']
 
