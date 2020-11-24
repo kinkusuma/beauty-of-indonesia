@@ -1,0 +1,50 @@
+{% extends 'baseen.html' %} {% load static %} {% block content %}
+<div class="hero" style=" 
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65)), url({% static 'img/tour-hero.jpg' %});
+background-position: bottom;
+background-size: cover;">
+    <h1 class="animate__animated animate__fadeInDown">
+        Tour package
+    </h1>
+</div>
+<div class="tour">
+    <h3>
+        Our Tour Package
+    </h3>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img src="{% static 'img/bali-pura.jpg'%}" class="card-img-top" alt="bali">
+                <div class="card-body">
+                    <h4 class="card-title">Bali Tour</h4>
+                    <h4 class="card-title">Start from: USD 316.99 </h4>
+                    <p class="card-text">3D2N. <br> Packages for 2 or more people.</p>
+                    <a href="{% url 'bali' %}" class="btn btn-dark">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="{% static 'img/lombok.jpg'%}" class="card-img-top" alt="lombok">
+                <div class="card-body">
+                    <h4 class="card-title">Lombok Tour</h4>
+                    <h4 class="card-title">Start from: USD 408.99</h4>
+                    <p class="card-text">3D2N.<br> Packages for 2 or more people. </p>
+                    <a href="{% url 'lombok' %}" class="btn btn-dark">Detail</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="{% static 'img/medan.jpg'%}" class="card-img-top" alt="medan">
+                <div class="card-body">
+                    <h4 class="card-title">Medan Tour</h4>
+                    <h4 class="card-title">Start from: USD 366.99</h4>
+                    <p class="card-text"> 4D3N. <br>Packages for 2 or more people.</p>
+                    <a href="{% url 'medan' %}" class="btn btn-dark">Detail</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

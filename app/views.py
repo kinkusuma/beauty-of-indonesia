@@ -4,5 +4,17 @@ from django.shortcuts import render
 def en(request):
     return render(request, 'en.html')
 
-def id(request):
+def idn(request):
     return render(request, 'id.html')
+
+def pack(request):
+    return render(request, 'pack.html')
+
+def packid(request):
+    return render(request, 'packid.html')
+
+def lombok(request):
+    return render(request, 'lombok.html')
+
+def lombokid(request):
+    return render(request, 'lombokid.html')
