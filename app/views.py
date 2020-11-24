@@ -12,9 +12,3 @@ def pack(request):
 
 def packid(request):
     return render(request, 'packid.html')
-
-def lombok(request):
-    return render(request, 'lombok.html')
-
-def lombokid(request):
-    return render(request, 'lombokid.html')

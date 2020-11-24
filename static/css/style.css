@@ -158,5 +158,15 @@ footer a:hover {
 }
 
 h5 {
-    font-size: 40em;
+    margin-left: 3.7em;
+    margin-right: 3.7em;
+    margin-bottom: 3em;
+}
+
+h5 ul {
+    margin-top: 2vh;
+}
+
+h5 ul li {
+    margin-bottom: 20px;
 }

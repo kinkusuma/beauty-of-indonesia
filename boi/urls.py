@@ -23,6 +23,4 @@ urlpatterns = [
     path('id', idn, name='id'),
     path('tour/', pack, name='pack'),
     path('id/tour', packid, name='packid'),
-    path('tour/lombok', lombok, name='lombok'),
-    path('id/tour/lombok', lombokid, name='lombokid'),
 ]
